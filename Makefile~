@@ -1,5 +1,5 @@
 run: compile
-	mpirun -np 6 --hostfile machinefile ./mpiex
+	mpirun -np 4 --hostfile machinefile ./mpiex
 compile:
 	mpicc anillo.c -o anillo
 clean:
